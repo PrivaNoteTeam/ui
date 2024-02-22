@@ -44,6 +44,9 @@
     "tailwindcss": "^3.4.1",
     "vite": "^5.1.0"
   },
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "files": ["dist"],
   "exports": {
     ".": {
       "import": "./dist/index.js",
