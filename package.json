@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "vite build --mode production",
+    "build": "vite build",
     "build:docs": "storybook build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
