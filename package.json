@@ -6,7 +6,7 @@
     "dev": "storybook dev -p 6006",
     "build": "vite build",
     "build:docs": "storybook build",
-    "postinstall": "vite build",
+    "prepare": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
