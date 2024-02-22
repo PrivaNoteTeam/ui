@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "production": "vite build --mode production"
   },
   "dependencies": {
     "@radix-ui/react-context-menu": "^2.1.5",
@@ -42,5 +43,11 @@
     "storybook": "^7.6.16",
     "tailwindcss": "^3.4.1",
     "vite": "^5.1.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
   }
 }
