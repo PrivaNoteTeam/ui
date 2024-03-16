@@ -43,7 +43,8 @@
     "prop-types": "^15.8.1",
     "storybook": "^7.6.16",
     "tailwindcss": "^3.4.1",
-    "vite": "^5.1.0"
+    "vite": "^5.1.0",
+    "vite-plugin-dts": "^3.7.3"
   },
   "main": "./dist/ui.umd.cjs",
   "module": "./dist/ui.js",
@@ -53,5 +54,8 @@
       "import": "./dist/ui.js",
       "require": "./dist/ui.umd.cjs"
     }
+  },
+  "publishConfig": {
+    "@privanote:registry": "https://npm.pkg.github.com"
   }
 }
