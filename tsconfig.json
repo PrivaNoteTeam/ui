@@ -4,7 +4,8 @@
     "noImplicitAny": true,
     "removeComments": true,
     "sourceMap": true,
-    "jsx": "react"
+    "jsx": "react",
+    "esModuleInterop": true
   },
   "include": ["src/**/*"]
 }
